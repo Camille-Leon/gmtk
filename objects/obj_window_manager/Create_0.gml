@@ -1,6 +1,6 @@
-viewport_width = 320;
-viewport_height = 240;
+viewport_width = 640;
+viewport_height = 640;
 
-window_scale = 3; // Multiplies window height/width by this on game start!
+window_scale = 1; // Multiplies window height/width by this on game start!
 
-var _camera = instance_create_layer(0, 0, layer, obj_camera);
+var _camera = instance_create_layer(obj_loop_center.x - viewport_width / 2, obj_loop_center.y - viewport_height / 2, layer, obj_camera);
